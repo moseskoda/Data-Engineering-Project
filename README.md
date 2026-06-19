@@ -1,7 +1,7 @@
 Welcome to your new dbt project!
 
 ### Using the starter project
-
+## comments on readme
 Try running the following commands:
 - dbt run
 - dbt test
