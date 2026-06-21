@@ -1,0 +1,18 @@
+version: 2
+
+models:
+  - name: employee
+    description: "My employee mode that store employee information"
+    
+          
+sources:
+  - name: employee
+    database: demodb
+    schema: demoschema
+    tables:
+      - name: EMPLOYEE_RAW
+  - name: patient
+    database: demodb
+    schema: demoschema
+    tables:
+      - name: PATIENT_SRC
